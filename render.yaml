@@ -1,0 +1,10 @@
+services:
+  - type: static
+    name: deluxedeals_net
+    env: static
+    buildCommand: "echo Building deluxedeals_net"
+    staticPublishPath: "public"
+    routes:
+      - type: rewrite
+        source: "/*"
+        destination: "/index.html"
