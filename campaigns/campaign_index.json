@@ -1,0 +1,7 @@
+{
+  "campaigns": [
+    { "id": "chess-gear", "stage": "A", "path": "stage_A/" },
+    { "id": "study-planner", "stage": "B", "path": "stage_B/" },
+    { "id": "mini-course", "stage": "C", "path": "stage_C/" }
+  ]
+}
